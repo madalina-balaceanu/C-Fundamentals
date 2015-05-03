@@ -1,7 +1,8 @@
-﻿using System;
-
+﻿
 namespace Exceptions
 {
+    using System;
+
     public class MyCustomException : Exception
     {
         public MyCustomException()

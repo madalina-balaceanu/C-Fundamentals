@@ -1,23 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace MyHomework
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
     class Person
     {
 
-        protected string lastname;
-        protected string firstname;
-        protected string dateOfBirth;
+        protected string lastName;
+        protected string firstName;
+        protected DateTime dateOfBirth;
 
-        public Person(string Lastname, string Firstname, string DateOfBirth)
+        public Person(string lastName, string firstName, DateTime dateOfBirth)
         {
-            this.lastname = Lastname;
-            this.firstname = Firstname;
-            this.dateOfBirth = DateOfBirth;
+            this.lastName = lastName;
+            this.firstName = firstName;
+            this.dateOfBirth = dateOfBirth;
         }
     }
 }

@@ -1,20 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyHomework
+﻿namespace MyHomework
 {
+
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+
     class Leave
     {
-
-        public string startingDate;
+        public DateTime startingDate;
         public int duration;
         public Employee employee;
-        public string leaveType;
+        public LeaveType leaveType;
 
-        public Leave(string startingDate, int duration, string leaveType)
+        public Leave(DateTime startingDate, int duration, LeaveType leaveType)
         {
             this.startingDate = startingDate;
             this.duration = duration;

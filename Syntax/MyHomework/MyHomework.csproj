@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LeaveType.cs" />
+    <Compile Include="AlreadyOcupateLeave.cs" />
     <Compile Include="NegativeLeaveDays.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Leave.cs" />
